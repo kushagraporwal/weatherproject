@@ -1,0 +1,32 @@
+<%- include("partials/header") -%>
+
+<h1 class="wtitle">Check The Weather Here</h1>
+<div class="container">
+<div class="main_content">
+    <!-- <img src="images/ther.png" alt="" style="width: 50px; display: inline-block;"> -->
+<form action="" class="temp_form">
+        <input type="text" id="cityname" placeholder="Enter city name">
+        <button type="submit" id="submitbt">Search</button>
+    </form>
+</div>
+</div>
+<div class="container" id="show">
+    
+<div class="tempinfo" style="font-family: 'Londrina Solid', cursive; background-image: url(images/.png);">
+    <div class="toplayer">
+        <p id="day" style="display: inline-block; ">Tuesday</p>
+        <p id="today" style="display: inline-block;">25 March</p>
+        <!-- <p id="time" style="display: inline-block;">00:00</p> -->
+    </div>
+    <div class="mainlayer">
+        <p id="city_name" style="text-decoration: underline;">Get output here</p>
+        <div class="middle_layer data_hide">
+            <p id="temp"><span>0</span> <sup>*</sup>C</p>
+            <p id="tempstatus" style="display: inline-block; font-family: 'Londrina Solid', cursive;"></p>
+            <img src="" alt="" id="fig" style="width: 20%;">
+        </div>
+    </div>
+</div>
+</div>
+<script src="main.js"></script>
+<%- include("partials/footer") -%>
